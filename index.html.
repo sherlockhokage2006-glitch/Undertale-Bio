@@ -25,7 +25,7 @@
     }
 
     .character {
-      width: 220px;
+      width: 300px; /* Sans maior */
       margin-top: 20px;
       animation: float 3s ease-in-out infinite;
       image-rendering: pixelated;
@@ -43,5 +43,11 @@
   <img src="https://static.wikia.nocookie.net/undertale/images/6/62/Spr_sans_battle_idle.gif" 
        alt="Sans Undertale" 
        class="character">
+
+  <!-- Música ambiente 8-bit (loop suave) -->
+  <audio autoplay loop>
+    <source src="https://vgmsite.com/soundtracks/undertale-soundtrack/tujaebjf/022%20-%20sans..mp3" type="audio/mpeg">
+    Seu navegador não suporta áudio em HTML5.
+  </audio>
 </body>
 </html>
